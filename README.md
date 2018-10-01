@@ -6,7 +6,7 @@ git clone https://github.com/smartholdem/sth-generator.git
 cd sth-generator
 npm install
 
-node bin/www or forever start bin/www
+npm start or forever start bin/www
 ```
 
 ### Generate Addresses
@@ -14,6 +14,7 @@ node bin/www or forever start bin/www
 http://localhost:3000/:network/:count
 
 network - devnet or mainnet
+
 count - from 1 to ...
 
 example:
